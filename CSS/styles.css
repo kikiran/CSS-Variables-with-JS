@@ -18,13 +18,12 @@ body {
 }
 .banner {
 	padding: 1rem;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 img {
 	background-color: var(--base);
-	padding: 1rem;
+	padding: var(--spacing);
     filter: blur(var(--blur));
 }
