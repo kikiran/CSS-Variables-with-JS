@@ -1,0 +1,30 @@
+* {
+	font-family: "Courier New", Courier, monospace;
+}
+:root {
+	--base: #ff600c;
+	--spacing: 10px;
+	--blur: 0px;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.header_text {
+	color: var(--base);
+	padding: var(--spacing);
+}
+.banner {
+	padding: 1rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img {
+	background-color: var(--base);
+	padding: 1rem;
+    filter: blur(var(--blur));
+}
